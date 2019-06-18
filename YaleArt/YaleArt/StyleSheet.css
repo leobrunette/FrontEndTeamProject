@@ -10,18 +10,39 @@
     font-family: 'Mallory-Medium';
     src: url('Fonts/Mallory-Medium.woff') format('woff');
 }
-.header{
+
+#YaleLogo {
+    font-family: yalenew-roman-webfont;
+    font-size:50px;
+    color:#00356b
+}
+
+h1{
     font-family: yalenew-roman-webfont;
     font-size: 55px;
     color: #000000;
 }
-.subHeader{
+h2{
     font-family: yalenew-roman-webfont;
     font-size: 30px;
     color: #00356b;
 }
-.bodyText{
+body{
     font-family: Mallory-Light;
     font-size: 20px;
     color: #000000;
+}
+
+.contactName {
+    border-top: 4px solid #ddd;
+}
+
+.half{
+    height:50%;
+}
+
+.contactImg{
+    height: 1em;
+    margin:5px;
+    width: 1em;
 }
