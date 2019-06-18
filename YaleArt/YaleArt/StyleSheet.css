@@ -26,22 +26,36 @@ body{
     font-size: 20px;
     color: #000000;
 }
+
+.description {
+	font-family: Mallory-Light;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #000000;
+	border: 2px #00356b;
+	padding: 0px 10px 10px 5px;
+	text-align: center;
+	border-radius: 6px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
 .btn {
-    color: #ffffff;
-    background-color: #00356b;
-    border: 2px #00356b;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    border-radius: 0px;
-    font-family: yalenew-roman-webfont;
-    font-size: 30px;
-    white-space: normal;
-    word-wrap: break-word;
+	color: #ffffff;
+	background-color: #00356b;
+	border: 2px #00356b;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	border-radius: 0px;
+	font-family: yalenew-roman-webfont;
+	font-size: 30px;
+	white-space: normal;
+	word-wrap: break-word;
 }
 .btn:hover{
     background-color: #286dc0;
