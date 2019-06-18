@@ -50,8 +50,8 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<h2>News!</h2>
-						<img src="news.jpg" width="100%" />
+						<h2>News</h2>
+						<img src="/images/news.jpg" width="100%" />
 						<p class="description">
 							Meleko Mokgosi appointed assosiate professor in painting/printmaking
 						</p>
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 			<div class="col-sm-8">
-				<img src="homeImage.jpg" width="100%" />
+				<img src="/images/homeImage.jpg" width"="100%" id="switchImage"/>
 			</div>
 			</div>
 
@@ -84,3 +84,16 @@
 	</div>
 </body>
 </html>
+<script>
+	var urls = ["/images/homeImage.jpg", "/images/homeImage2.jpg", "/images/homeImage3.jpg"];
+
+	var currentIndex = 1;
+
+	setInterval(function () {
+		document.getElementById("switchImage").src = urls[currentIndex];
+		currentIndex++;
+		if (currentIndex == undefined || currentIndex >= urls.length) {
+			currentIndex = 0;
+		}
+	}, 4000);
+</script>
