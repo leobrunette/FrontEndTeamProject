@@ -1,0 +1,102 @@
+﻿@font-face {
+    font-family: 'yalenew-roman-webfont';
+    src: url('Fonts/yalenew-roman-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Mallory-Light';
+    src: url('Fonts/Mallory-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mallory-Medium';
+    src: url('Fonts/Mallory-Medium.woff') format('woff');
+}
+
+#YaleLogo {
+    font-family: yalenew-roman-webfont;
+    font-size:50px;
+    color:#00356b
+}
+
+h1{
+    font-family: yalenew-roman-webfont;
+    font-size: 55px;
+    color: #000000;
+}
+h2{
+    font-family: yalenew-roman-webfont;
+    font-size: 30px;
+    color: #00356b;
+    text-transform: capitalize;
+}
+a {
+    color: #00356b;
+    }
+body{
+    font-family: Mallory-Light;
+    font-size: 20px;
+    color: #000000;
+}
+
+.contactName {
+    border-top: 4px solid #ddd;
+}
+
+.half{
+    height:50%;
+}
+
+.contactImg{
+    height: 1em;
+    margin:5px;
+    width: 1em;
+}
+
+.description {
+	font-family: Mallory-Light;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #000000;
+	border: 2px #00356b;
+	padding: 0px 10px 10px 5px;
+	text-align: center;
+	border-radius: 6px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #00356b;
+    border: 2px #00356b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family: yalenew-roman-webfont;
+    font-size: 30px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.btn:hover{
+    background-color: #286dc0;
+}
+.btn-large {
+    width: 90%;
+    padding: 15px 32px;
+    margin: 8px 4px;
+    border-radius: 10px;
+}
+.list-blank{
+    list-style: none;
+}
+.bold{
+    font-family: Mallory-Medium;
+}
+
+.container-fluid{
+    padding-left:0;
+    padding-right:0;
+}

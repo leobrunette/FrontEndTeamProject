@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="StyleSheet.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<title>Yale Art Home</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" id="YaleLogo" href="yaleArtHome.html">Yale</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                    <a class="nav-item nav-link" href="aos.html">Areas of Study</a>
+                    <a class="nav-item nav-link" href="ContactUs.html">Contact US</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12">
+								<h1>Welcome!</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<p class="bodyText">
+									Welcome to the Yale University art department.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>News</h2>
+						<img src="/images/news.jpg" width="100%" />
+						<p class="description">
+							Meleko Mokgosi appointed assosiate professor in painting/printmaking
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<img src="/images/homeImage.jpg" width"="100%" id="switchImage"/>
+			</div>
+			</div>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<h2>Newsletter</h2>
+				<p class="bodyText">
+					Click
+					<a href="http://eepurl.com/c4lFMn"> here </a>
+					to sign up for the Yale School of Art newsletter.
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<h2>Event Calendar</h2>
+				<p class="bodyText">
+					See a listing of all School of Art Events and affiliated events of interest at Yale University.
+				</p>
+				<a href="https://calendar.yale.edu/cal/main/showEventList.rdo;jsessionid=fsbnGPIiqpDlH-7Mbg-XnHqZM8EKcAhQMIM8hrFR.ip-10-0-10-5">Click here to view Yale event calendar.</a>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
+<script>
+	var urls = ["/images/homeImage.jpg", "/images/homeImage2.jpg", "/images/homeImage3.jpg"];
+
+	var currentIndex = 1;
+
+	setInterval(function () {
+		document.getElementById("switchImage").src = urls[currentIndex];
+		currentIndex++;
+		if (currentIndex == undefined || currentIndex >= urls.length) {
+			currentIndex = 0;
+		}
+	}, 4000);
+</script>
