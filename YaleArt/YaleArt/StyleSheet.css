@@ -46,7 +46,16 @@ body{
     background-color: #286dc0;
 }
 .btn-large {
-    padding: 30px 64px;
-    margin: 4px 2px;
-    border-radius: 0px;
+    width: 90%;
+    height: 150px;
+    padding: 30px 32px;
+    margin: 8px 4px;
+    border-radius: 10px;
 }
+.list-blank{
+    list-style: none;
+}
+.bold{
+    font-family: Mallory-Medium;
+}
+
