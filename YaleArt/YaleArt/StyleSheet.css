@@ -26,6 +26,7 @@ h2{
     font-family: yalenew-roman-webfont;
     font-size: 30px;
     color: #00356b;
+    text-transform: capitalize;
 }
 body{
     font-family: Mallory-Light;
@@ -46,3 +47,36 @@ body{
     margin:5px;
     width: 1em;
 }
+.btn {
+    color: #ffffff;
+    background-color: #00356b;
+    border: 2px #00356b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family: yalenew-roman-webfont;
+    font-size: 30px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.btn:hover{
+    background-color: #286dc0;
+}
+.btn-large {
+    width: 90%;
+    height: 150px;
+    padding: 30px 32px;
+    margin: 8px 4px;
+    border-radius: 10px;
+}
+.list-blank{
+    list-style: none;
+}
+.bold{
+    font-family: Mallory-Medium;
+}
+
