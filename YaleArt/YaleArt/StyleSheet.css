@@ -82,8 +82,7 @@ body{
 }
 .btn-large {
     width: 90%;
-    height: 150px;
-    padding: 30px 32px;
+    padding: 15px 32px;
     margin: 8px 4px;
     border-radius: 10px;
 }
